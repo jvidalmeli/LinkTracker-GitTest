@@ -5,7 +5,7 @@ public class LinkDTO {
    private String url;
    private int id = -1;
    private int accesos = 0;
-   private boolean invalido = false;
+   private boolean invalid = false;
    private String password;
 
     public String getPassword() {
@@ -16,12 +16,12 @@ public class LinkDTO {
         this.password = password;
     }
 
-    public boolean isInvalido() {
-        return invalido;
+    public boolean isInvalid() {
+        return invalid;
     }
 
-    public void setInvalido(boolean invalido) {
-        this.invalido = invalido;
+    public void setInvalid(boolean invalid) {
+        this.invalid = invalid;
     }
 
     public int getAccesos() {
